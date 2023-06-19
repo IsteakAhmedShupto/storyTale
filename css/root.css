@@ -1,0 +1,21 @@
+:root {
+  --gray-1: #374151;
+  --gray-2: #1f2937;
+  --gray-3: #d1d5db;
+  --gray-4: #9ca3af;
+  --blue-1: #60a5fa;
+  --blue-2: #3b82f6;
+  --blue-3: #2563eb;
+  --blue-4: #1d4ed8;
+  --red-1: #dc2626;
+  --white: #ffffff;
+  --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Merriweather", sans-serif;
+}

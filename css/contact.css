@@ -1,0 +1,102 @@
+.contact {
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+  min-height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-centering {
+  box-shadow: var(--light-shadow);
+  padding: 2rem;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.contact-bar {
+  height: 300px;
+  width: 10px;
+  background-color: var(--blue-2);
+}
+
+.contact-title {
+  font-size: 3rem;
+  color: var(--blue-1);
+  margin-bottom: 1rem;
+}
+
+.contact-intro {
+  font-size: 2rem;
+  color: var(--gray-1);
+  margin-bottom: 1rem;
+}
+
+.contact-texts {
+  color: var(--gray-4);
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.contact-btn {
+  background: var(--blue-1);
+  padding: 1rem 1.2rem;
+  font-size: 1.2rem;
+  border: 0;
+  color: var(--white);
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+}
+
+.contact-btn:hover {
+  background: var(--blue-3);
+}
+
+@media screen and (max-width: 1241px) {
+  .contact {
+    max-width: 1000px;
+  }
+}
+
+@media screen and (max-width: 1060px) {
+  .contact {
+    max-width: 500px;
+  }
+
+  .contact-title,
+  .contact-intro {
+    font-size: 1.9rem;
+  }
+
+  .contact-texts,
+  .contact-btn {
+    font-size: 1.6rem;
+  }
+}
+@media screen and (max-width: 551px) {
+  .contact {
+    max-width: 300px;
+  }
+  .contact-title,
+  .contact-intro {
+    font-size: 1.3rem;
+  }
+
+  .contact-texts,
+  .contact-btn {
+    font-size: 1rem;
+  }
+}
